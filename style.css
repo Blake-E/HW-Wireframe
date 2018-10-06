@@ -1,0 +1,79 @@
+{box-sizing: border-box;
+text-align: center;
+}
+
+body {
+    font-size: 18px;
+    line-height: 32px;
+    color: gray;
+    background: gray;
+    width: 960px;
+    font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background: lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+
+nav {
+    background: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    background: lightgray;
+    width: 495px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+}
+
+aside {
+    float: right;
+    background: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    margin-left: 20px;
+    width: 40%;
+}
+
+article {
+    background: gray;
+    color: lightgray;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 3px solid gray;
+}
+
+h1 {
+    background: lightgray;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    background: lightgray;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: lightgray;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
