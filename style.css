@@ -1,13 +1,15 @@
-{box-sizing: border-box;
-text-align: center;
+{
+    box-sizing: border-box;
+    text-align: center;
 }
 
 body {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 24px;
     color: gray;
     background: gray;
     width: 960px;
+    margin-bottom: 20px;
     font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -25,15 +27,6 @@ nav {
     margin-bottom: 20px;
 }
 
-section {
-    background: lightgray;
-    width: 495px;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    float: left;
-}
-
 aside {
     float: right;
     background: lightgray;
@@ -42,7 +35,18 @@ aside {
     margin-bottom: 20px;
     border: 1px solid gray;
     margin-left: 20px;
-    width: 40%;
+    width: 465px;
+}
+
+section {
+    background: lightgray;
+    width: 495px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    position: absolute;
 }
 
 article {
@@ -52,7 +56,8 @@ article {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
-    border: 3px solid gray;
+    border: 20px solid gray;
+    position: relative
 }
 
 h1 {
